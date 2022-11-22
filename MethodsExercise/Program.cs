@@ -49,13 +49,11 @@
             Console.WriteLine("Great! Now, what is your favority band");
             var band = Console.ReadLine();
 
-            Console.WriteLine($"Thanks, {userName}! Here is your profile");
+            Console.WriteLine($"Thanks, {userName}! Here is your story");
             Console.WriteLine("--------------------------------------------");
 
-            Console.WriteLine($"Name: {userName}");
-            Console.WriteLine($"Favorite color: {color}");
-            Console.WriteLine($"Favorite Animal: {animal}");
-            Console.WriteLine($"Favorite Band: {band}");
+            Console.WriteLine($"The was a person named {userName}. \nThey owned the coolest {color} {animal},");
+            Console.WriteLine($"That playedd in a band called {band}.\n-The End");
         }
 
 
